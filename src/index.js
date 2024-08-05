@@ -1,3 +1,5 @@
+import "./hooks/index";
+
 function createElement(type, props, ...children) {
   console.log(type, props, children);
   return {
